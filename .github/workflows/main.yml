@@ -44,7 +44,7 @@ jobs:
       
       # Configure test runner
       - name: Run tests in EditMode
-        id: editMode
+        id: testRunner
         uses: webbertakken/unity-test-runner@v1.1.1
         env:
           TEST_MODE: editmode          
